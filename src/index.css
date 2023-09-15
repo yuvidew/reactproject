@@ -1231,6 +1231,7 @@ background: #6203fc;
     }
 
     #root .blue{
+        padding: 1rem 2rem;
         height: 50rem;
     }
 
@@ -1263,7 +1264,7 @@ background: #6203fc;
 
     .Offersthecardpalxe .forsththerd,
     .Offersthecardpalxe  .firstsecon{
-        width: 110rem;
+        width: 140rem;
     }
 
     .exploreind > div:nth-child(2){
@@ -1293,11 +1294,13 @@ background: #6203fc;
 
     .thesecondfootersection .theserisignupbar .textbox{
         height: 100%;
-        width: 60%;
+        width: 100%;
+        padding: 1rem 2rem;
     }
 
     .thesecondfootersection .theserisignupbar .imgbox{
         width: 40%;
+        display: none;
     }
 
     .thesecondfootersection .theserisignupbar .textbox p{
@@ -1308,9 +1311,13 @@ background: #6203fc;
     .discover .imgbox{
         display: none;
     }
-
+    
     .discover .textcont .textbox{
-        left: 20rem;
+        align-items: start;
+        padding-left: 10rem;
+        width: 45rem;
+        left: 10rem;
+        top: -7rem;
     }
     
 }
@@ -1342,6 +1349,7 @@ background: #6203fc;
     }
 
     #root .blue{
+        padding: 1rem 2rem;
         height: 50rem;
     }
 
@@ -1453,6 +1461,7 @@ background: #6203fc;
     }
 
     #root .blue{
+        padding: 1rem 2rem;
         height: 50rem;
     }
 
