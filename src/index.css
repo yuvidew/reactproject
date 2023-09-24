@@ -961,6 +961,7 @@ background: #6203fc;
     height: 45rem;
     background: #6203fc;
     border-radius: 50%;
+    /* background: transparent; */
 }
 
 .discover .textcont .curcul{
@@ -1202,6 +1203,641 @@ background: #6203fc;
     color: #6203fc;
 }
 
+
+/* ############################################################Flight###########################################################3 */
+
+
+#root .flightblue{
+    width: 100%;
+    height: 15rem;
+    background: #6203fc;
+}
+
+.flightcompinent{
+    padding: 2rem ;
+    background: #f3f1f1;
+}
+
+.Bokingheaging{
+    padding:2rem 0 ;
+}
+
+.Bokingheaging h1{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+
+.Bokingheaging p{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.thecheckbox{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.thecheckbox label{
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.thecheckbox input{
+    cursor: pointer;
+}
+
+
+.thecheckbox select{
+    font-size: 1.3rem;
+    background: transparent;
+    font-weight: 400;
+}
+
+.thecheckbox h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.thetravelor{
+    position: relative;
+}
+
+.travelerbox{
+    position: absolute;
+    width: 35rem;
+    display: none;
+    top: 6rem;
+    padding: 1rem;
+    left:-12rem;
+    height: 36rem;
+    border-radius: .5rem;
+    background: #fff;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.274);
+    z-index: 2;
+    transition:all ease-in-out .1s ;
+}
+
+.showals{
+    transition:all ease-in-out .1s ;
+    position: absolute;
+    z-index: 2;
+    width: 35rem;
+    display: block;
+    top: 5rem;
+    padding: 1rem;
+    left:-12rem;
+    height: 36rem;
+    border-radius: .5rem;
+    background: #fff;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.274);
+}
+
+.thecheckbox .fromclosbtn{
+    background: transparent;
+}
+
+.thecheckbox h3{
+    cursor: pointer;
+}
+
+.thebox{
+    width: 100%;
+    height: 80%;
+    overflow-y: scroll;
+}
+
+.btnces{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.btnces .lefref{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.btnces .lefref button{
+    background: #6203fc;
+    padding: .5rem 1rem ;
+    color: #f3f1f1;
+    font-size: 1.4rem;
+    border-radius: .7rem;
+    font-weight: 500;
+}
+
+.thebox .selectage{
+    width: 100%;
+    margin: 1rem 0;
+    margin-top: 2rem;
+}
+
+.thebox .selectage .box{
+    flex-direction: column;
+    gap: .5rem;
+    margin: 1rem 0;
+    margin-bottom: 3rem;
+    height: 10rem;
+}
+
+.thebox .selectage .box select{
+    padding: .5rem;
+    border-radius: .5rem;
+    border: 1px solid #c5c2c2;
+}
+
+.thebox .selectage .box h2{
+    font-size: 1.4rem;
+}
+
+.thebox .selectage .box p{
+    font-size: 1.2rem;
+}
+
+.thebox .box{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.box .leftright{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: .5rem 0;
+    justify-content: left;
+}
+
+.box .leftright h2{
+    font-size: 1.5rem;
+}
+
+.btnces{
+    padding: 1rem;
+}
+
+.box .leftright p{
+    font-size: 1.3rem;
+}
+
+.box .leftright:nth-child(2) .btnbox{
+    width: 90%;
+    height: 100%;
+    border: .1px solid #eceaea;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+.box .leftright:nth-child(2) button{
+    background: #e4e3e3;
+}
+
+.box .leftright:nth-child(2) button{
+    height: 100%;
+    width: 33.3%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.box .leftright:nth-child(2) span{
+    font-size: 1.2rem;
+    text-align: center;
+    width: 33.3%;
+    display: inline-block;
+}
+
+
+.bookingfrom{
+    width: 100%;
+    border:5px solid gold ;
+    background-color: gold;
+    border-radius:.5rem ;
+}
+
+.bookingfrom svg {
+    fill : black;
+}
+
+.formbox {
+    width: 100%;
+}
+
+.formbox button{
+    background: #fff;
+    border-radius: .8rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.lastbtn{
+    background: #6203fc;
+    color: #f3f1f1;
+    width: 20%;
+}
+
+
+.thfrombtn{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.lastbtn:hover{
+    background-color: #1f069a;
+}
+
+.bigbtn{
+    width: 50%;
+}
+
+.bigbtn button{
+    width: 100%;
+    height: 100%;
+}
+
+.formbox .first{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.formbox button{
+    padding: 1.8rem 1.5rem;
+
+}
+
+.bigbtn{
+    position: relative;
+
+}
+
+.bigbtn .frombox{
+    margin-top: 3rem;
+    border-radius: .6rem;
+    padding: 2rem;
+    background: #fff;
+    position: absolute;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.274);
+}
+
+.bigbtn .frombox >input{
+    padding: 1rem;
+    width: 100%;
+    border: 2px solid #1f069a;
+    border-radius: .5rem;
+}
+
+.bigbtn .frombox h3{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.bigbtn .frombox input{
+    font-size: 1.3rem;
+}
+
+.bigbtn .frombox .inputbox{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.bigbtn .frombox .secinputbox{
+    width: 100%;
+    padding: 0 .7rem;
+    border: 2px solid #1f069a;
+    border-radius: .5rem;
+}
+
+.bigbtn .frombox .secinputbox label{
+    padding: .6rem 1rem;
+    border-radius: .5rem;
+    background: #c7c6c6;
+}
+
+.bigbtn .frombox .inputbox input{
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.thexmark{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.first{
+    width: 100%;
+}
+
+.first .lastbtn{
+    height: 100%;
+}
+
+/* ############################################################popular############################################################## */
+
+.Popularconte{
+    padding: 2.5rem 2rem;
+}
+
+.Popularconte h1{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+
+.Popularconte p{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.flightcintry{
+    padding: 1rem 0;
+}
+
+.flightcintry .btnbox{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.flightcintry .btnbox button{
+    background: transparent;
+    padding: 1.5rem 1.2rem;
+    font-size: 1.4rem;
+    font-weight:400 ;
+    /* border-bottom: 2px solid #1f069a; */
+}
+
+.flightcintry .line{
+    z-index: -1;
+    border: .1px solid #c5c2c2;
+    width: 100%;
+}
+
+.internatinalCon{
+    padding: 2rem 0;
+    width: 100%;
+    height: 30rem;
+}
+
+.internatinalCon .box{
+    width: 100%;
+    height: 100%;
+
+}
+
+.internatinalCon .box .imgbox{
+    width: 100%;
+    height: 60%;
+    border-radius:1rem ;
+    overflow: hidden;
+}
+
+.internatinalCon .box .imgbox img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.internatinalCon .box .textbox{
+    padding: 1rem 0;
+}
+
+.internatinalCon .box .textbox h1{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.internatinalCon .box .textbox p{
+    font-size: 1.3rem;
+}
+
+.domesticcon{
+    padding: 1rem 0;
+    width: 100%;
+    height: 30rem;
+    overflow-x: scroll;
+}
+
+.domesticbox{
+    width: 130%;
+    gap: 1rem;
+    height: 100%;
+}
+
+.domesticbox .boxdomis{
+    width: 25rem;
+    height: 100%;
+}
+
+.domesticbox .boxdomis .box{
+    width: 100%;
+    height: 100%;
+}
+
+.domesticbox .boxdomis .box{
+    width: 100%;
+    height: 100%;
+}
+
+.domesticbox .boxdomis .box .imgbox{
+    width: 100%;
+    height: 60%;
+    border-radius:1rem ;
+    overflow: hidden;
+}
+
+.domesticbox .boxdomis .box .imgbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.domesticbox .boxdomis .box .textbox{
+    padding: 1rem 0;
+}
+
+.domesticbox .boxdomis .box .textbox h1{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.domesticbox .boxdomis .box .textbox p{
+    font-size: 1.3rem;
+}
+
+
+.domesticcon::-webkit-scrollbar{
+    width: 1rem;
+    height: .3rem;
+}
+
+.domesticcon::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.domesticcon::-webkit-scrollbar-thumb {
+background: #6203fc;
+}
+
+.btnbox{
+    position: relative;
+}
+
+.btncol{
+    color: #6203fc;
+}
+
+.thebtnline{
+    position: absolute;
+    bottom:0 ;
+    height: .3rem;
+    display: block;
+    width: 12rem;
+    background-color: #6203fc;
+}
+
+
+/*#########################################theworldfligth#####################################*/
+
+.theproces{
+    background: #f3f1f1;
+    padding: 4rem 2rem;
+}
+
+.theproces .box{
+    padding: 1rem 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.theproces .box .imgbox{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.theproces .box .imgbox img{
+    width: 80%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+.theproces .box .textbox{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.theproces .box .textbox h1{
+    font-size: 2.2rem;
+}
+
+.theproces .box .textbox p{
+    font-size: 1.4rem;
+}
+
+.theworkdwide h1{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+
+.theworkdwide p{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.thecontryscont{
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.contrybtncontc{
+    width: 100%;
+    height: 7rem;
+}
+
+.contrybtncontc .contrybtnbox{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.contrybtncontc .contrybtnbox button{
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    background: transparent;
+    border-radius: 10rem;
+}
+
+.contrybtncontc .contrybtnbox button:focus{
+    background: #6203fca7;
+    color: #fff;
+}
+
+.thecontriimagcont{
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.thecontriimagcont .thecontryscont1,
+.thecontriimagcont .thecontryscont1 .thecontrysbox1{
+    width: 100%;
+    height: 100%;
+}
+
+.thecontryscont1 .thecontrysbox1 .box{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.thecontrysbox1 .box .textbox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    flex-direction: column;
+}
+
+.thecontrysbox1 .box .textbox h1{
+    font-size: 2rem;
+    margin-top:2rem ;
+}
+
+.thecontrysbox1 .box .imgbox{
+    width: 40%;
+    height: 100%;
+    border-radius: 1.2rem;
+    overflow: hidden;
+}
+
+.thecontrysbox1 .box .imgbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /* #########################################################responsnes#########################################3 */
 
 
@@ -1221,6 +1857,7 @@ background: #6203fc;
 
     nav{
         overflow-x: scroll;
+        padding: 1rem;
     }
 
     nav::-webkit-scrollbar{
@@ -1320,7 +1957,45 @@ background: #6203fc;
         left: 10rem;
         top: -7rem;
     }
+
+    #root .flightblue,
+    .Bokingheaging{
+        padding: 1rem 2rem;
+    }
     
+    .bookingfrom{
+        width: 100%;
+    }
+
+    
+
+    .thfrombtn{
+        width: 100%;
+        flex-direction: row;
+
+    }
+
+    .formbox .first{
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .lastbtn{
+        width: 100%;
+    }
+
+    .frombox{
+        background-color: #fff;
+    }
+
+    .domesticbox{
+        width: 180rem;
+    }
+
+    /* .domesticbox .boxdomis{
+        width: 35rem;
+    } */
+
 }
 
 
@@ -1434,6 +2109,11 @@ background: #6203fc;
     }
     
 }
+
+
+
+
+
 
 
 @media (min-width:768px) and (max-width : 992px){

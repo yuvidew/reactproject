@@ -1,32 +1,18 @@
 import React from "react";
-import Header from "./components/Header";
-import BookHome from "./components/BookHome";
-import Exploreindia from "./components/Explorindia";
-import Tripplanner from "./components/Tripplanner";
-import Propertistype from "./components/Propertistype";
-import Footersect from "./components/Footersect";
-import Emailsection from "./components/Emailsection";
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from "./components/Home";
+import Flight from "./components/Flight";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 const App = () =>{
   return(
     <>
-      <div className="blue">
-        <div className="container">
-              <Header></Header>
-            <div>
-              <BookHome></BookHome>
-              <Exploreindia></Exploreindia>
-              <Tripplanner></Tripplanner>
-              <Propertistype></Propertistype>
-              <Footersect></Footersect>
-            </div>
-        </div>
-        <Emailsection></Emailsection>
-        <div className="creatername">
-        <p>Created By <span> Mr. yuvi dew... </span> | All Right Reserved!</p>
-        </div>
-      </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/flight" element={<Flight/>}/>
+    </Routes>
+  </BrowserRouter>
     </>
   )
 }
